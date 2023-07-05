@@ -2,13 +2,12 @@ package main
 
 import (
 	"fmt"
-	"runtime"
 
-	"github.com/nicopier/godesde0/variables"
+	"github.com/nicopier/godesde0/ejercicios"
 )
 
 func main() {
-	estado, texto := variables.ConviertoaTexto(26031)
+	/*estado, texto := variables.ConviertoaTexto(26031)
 	fmt.Println(estado)
 	fmt.Println(texto)
 
@@ -25,5 +24,8 @@ func main() {
 		fmt.Println("esto es darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}
+	} */
+	numero, texto := ejercicios.EjercicioCeroUno("fffffffffffff")
+	fmt.Println(numero)
+	fmt.Println(texto)
 }
