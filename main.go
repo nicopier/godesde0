@@ -1,11 +1,5 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/nicopier/godesde0/ejercicios"
-)
-
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(26031)
 	fmt.Println(estado)
@@ -16,7 +10,6 @@ func main() {
 	} else {
 		fmt.Println("esto es Windows")
 	}
-
 	switch os := runtime.GOOS; os {
 	case "linux":
 		fmt.Println("esto es linux")
@@ -25,7 +18,9 @@ func main() {
 	default:
 		fmt.Printf("%s \n", os)
 	} */
-	numero, texto := ejercicios.EjercicioCeroUno("fffffffffffff")
+	/*numero, texto := ejercicios.EjercicioCeroUno("fffffffffffff")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+
+	//*teclado.IngresoNumeros()*//
 }
