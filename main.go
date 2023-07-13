@@ -1,5 +1,9 @@
 package main
 
+import (
+	"github.com/nicopier/godesde0/files"
+)
+
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(26031)
 	fmt.Println(estado)
@@ -23,4 +27,9 @@ func main() {
 	fmt.Println(texto)*/
 
 	//*teclado.IngresoNumeros()*//
+	//fmt.Println(ejercicios.EjercicioDos())
+
+	//files.GrabaTabla()
+	//file.SumaTabla()
+	files.LeoArchivo()
 }
