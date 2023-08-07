@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/nicopier/godesde0/files"
+	"fmt"
+
+	d "github.com/nicopier/godesde0/goroutines"
 )
 
 func main() {
@@ -31,5 +33,25 @@ func main() {
 
 	//files.GrabaTabla()
 	//file.SumaTabla()
-	files.LeoArchivo()
+	//files.LeoArchivo()
+
+	//funciones.LlamarClosure()
+	//funciones.Exponencia(2)
+
+	//arreglos_slice.Capacidad()
+	//mapas.Mapas()
+	//users.AltaUsuario()
+
+	//Pedro := new(m.Hombre)
+	//e.HumanosRespirando(Pedro)
+
+	//Maria := new(m.Mujer)
+	//e.HumanosRespirando(Maria)
+
+	//d.VemosDefer()
+	//d.EjemploPanic()
+	go d.MiNombreLentooo("nicolas")
+	fmt.Println("estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 }
