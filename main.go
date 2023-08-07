@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	d "github.com/nicopier/godesde0/goroutines"
-)
+import "github.com/nicopier/godesde0/webserver"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(26031)
@@ -50,8 +46,14 @@ func main() {
 
 	//d.VemosDefer()
 	//d.EjemploPanic()
-	go d.MiNombreLentooo("nicolas")
-	fmt.Println("estoy aqui")
-	var x string
-	fmt.Scanln(&x)
+	//canal1 := make(chan bool)
+	//*go d.MiNombreLentooo("nicolas", canal1)
+
+	/*defer func() {
+		<-canal1
+	}()
+
+	fmt.Println("estoy aqui")*/
+
+	webserver.MiWebServer()
 }
